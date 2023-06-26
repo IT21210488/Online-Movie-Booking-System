@@ -1,0 +1,76 @@
+.main-class{
+    width: 100%;
+    height: auto;
+    /*border: 1px solid red;*/
+}
+.sub-class{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid red;*/
+}
+.sub-left{
+    flex: 0 0 40%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    font-weight: 400;
+}
+.sub-right{
+    flex: 0 0 60%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    padding-bottom: 30px;
+}
+.movie-name {
+    max-width: 1000px;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000025;
+    /*border: 1px solid red;*/
+}
+.story-line {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.team {
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+.book-now {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top: 30px;
+    
+    
+}
+.sub-right .cast {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.th {
+    text-align: left;
+}
+.table{
+    border-bottom: 10px;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    margin :auto;
+    display: flex;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
