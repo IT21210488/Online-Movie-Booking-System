@@ -1,0 +1,129 @@
+.ftr-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #131334;
+    color: #9a9a9a;
+    border: 1px solid #131334;
+}
+
+/* Footer Top */
+.ftr-top{
+    width: 100%;
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Footer bottom */
+.ftr-bottom{
+    width: 100%;
+    flex: 0 0 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* Footer Top Styles */
+.ftr-top-sections{
+    flex: 0 0 25%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+.ftr-top-section-headers{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #ffffff;
+    line-height: 25px;
+}
+.ftr-top-section-desc{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+/* Footer Menu Links Styles */
+.ftr-menu-links-ul{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ftr-menu-links-list-elements{
+    list-style-type: none;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.ftr-menu-links{
+    font-weight: bold;
+    color: #9a9a9a;
+    text-decoration: none;
+}
+.ftr-menu-links:hover{
+    color: #ed0c6e;
+}
+
+
+/* Footer Contact Us Styles */
+.ftr-contact-details-tbl{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.ftr-contact-details-row{
+    width: 100%;
+    flex: 0 0 25%;
+    line-height: 40px;
+    padding: 3px 5px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.ftr-contact-details-row-key{
+    flex: 0 0 90px;
+    height: 100%;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ftr-contact-details-row-value{
+    flex: 1 0 0;
+    height: 100%;
+    text-align: left;
+}
+
+
+/* Footer Follow Us Styles */
+.ftr-social-media-icons-sec{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+.ftr-social-media-icons-box{
+    flex: 0 0 25%;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px red;
+}
+.ftr-social-media-links{
+    text-decoration: none;
+}.ftr-social-media-icons{
+    width: 40px;
+    height: 35px;
+    margin-top: 2px;
+}
+

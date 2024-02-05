@@ -1,0 +1,88 @@
+.body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#61615e;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        margin-top: -50px;
+        padding: 80px;  
+        background: #110c17;  
+        border-radius: 15px ; 
+        margin: auto;
+        margin-top: 10px; 
+        margin-bottom: 120px;
+        bordejr: 1px solid yellow;
+        
+          
+}  
+h2{  
+    text-align: center;  
+    color: white;  
+    padding: 20px;
+    margin-top: -60px; 
+    font-weight: bold;
+
+}  
+.label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+    margin-left: 50px;
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+   
+    margin-left: 50px; 
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    
+    margin-left: 50px;
+      
+}  
+#log{  
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: white;
+    background-color: darkred;  
+    font-weight: bold;
+    margin-left: 81px;
+  
+  
+}  
+
+.imgadmin
+{
+
+ height: 160px;
+ height: 140px;
+ margin-left: 700px;
+ margin-top: 40px;
+
+
+}
+#erro
+{
+   
+    color: red;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: bold;
+
+
+}

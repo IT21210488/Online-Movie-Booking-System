@@ -1,0 +1,76 @@
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.movies .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.movies .box-container .box{
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1) ;
+    border: 2px solid black;
+    position: relative;
+    padding: 20px;
+    background-color: rgb(179, 176, 172);
+    width: 300px;
+}.movies .box-container .box .img{
+    height: 250px;
+    width: auto;
+    padding: auto;
+}
+.movies .box-container .box .Mname{
+    font-size: 30px;
+    color: black;
+    padding: 5px 0px;
+}
+.movies .box-container .box .Theater{
+    font-size: 20px;
+    color: rgb(6, 19, 84);
+    padding: 5px 0px;
+}
+.movies .box-container .box input[type = "number"]{
+    margin: 5px 0;
+    width: 20%;
+    border: 2px solid black;
+    font-size: 15px;
+    color: black;
+}
+.movies .box-container .box input[type = "date"]{
+    margin: 5px 0;
+    width: 40%;
+    border: 2px solid black;
+    font-size: 15px;
+    color: black;
+}
+.movies .box-container .box input[type = "time"]{
+    margin: 5px 0;
+    width: 30%;
+    border: 2px solid black;
+    font-size: 15px;
+    color: black;
+}
+.movies .box-container .box .lable{
+    font-size: 20px;
+    color: black;
+    padding: 5px 10px;
+}
+.shopping-cart a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.shopping-cart a:hover, a:active {
+    background-color: red;
+  }

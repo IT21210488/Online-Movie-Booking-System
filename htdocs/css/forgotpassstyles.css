@@ -1,0 +1,106 @@
+.forgot-pass-page-content{
+    width: 520px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    background: #131334;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #131334;
+    
+}
+.fppage-page-text-one{
+    text-align: center;
+    font-size: 19px;
+    padding: 0px 0px 20px 0px;
+}
+.fppage-page-text-two{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: auto;
+    padding: 20px 5px 0px 5px;
+}
+
+/* Forgot Pass form section */
+.fppage-form-sec{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.fppage-email-field{
+    width: 400px;
+    height: 45px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    text-transform: lowercase !important;
+}
+.fppage-submit-btn{
+    width: 400px;
+    height: 45px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.fppage-submit-btn:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    background: rgb(26, 125, 224);
+    border: 1px solid rgb(26, 125, 224);
+}
+
+/* Form other links */
+.form-other-links-sec{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-other-links-left{
+    flex: 0 0 50%;
+    height: 100%;
+    line-height: 40px;
+    text-align: left;
+}
+.form-other-links-right{
+    flex: 0 0 50%;
+    height: 100%;
+    line-height: 40px;
+    text-align: right;
+}
+.fppage-other-link-txt{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fppage-other-link-txt:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* Create new password */
+.create-new-pass-form{
+    width: 520px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background: #131334;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #131334;
+}
+.color-red{
+    color: #ed0c6e;
+}

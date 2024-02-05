@@ -1,0 +1,103 @@
+.movie-page-section {
+    height: auto;
+}
+/*Now Showing*/
+.movie-page-ns-section {
+    width: 100%;
+    height: auto;
+    background: #000025;
+    border: 1px solid #000025;
+}
+.movies-container-ns{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    row-gap: 25px;
+    column-gap: 30px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+.heading-ns{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 30px;
+    color: #ffffff;
+}
+.text-ns {
+    width: 225px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text-ns-1 {
+    width: 225px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;    
+}
+.box .box-img{
+    width: 315px;
+    height: 400px;
+}
+.box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100% 100%;
+}
+.box .box-img img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+
+.heading-cs{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ed0c6e;
+    color: #000025;
+}
+/*Coming Soon*/
+.movie-page-cs-section {
+    width: 100%;
+    height: auto;
+    background: solid #ffffff;
+    margin-bottom: 70px;
+    
+}
+.movies-container-cs{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    row-gap: 25px;
+    column-gap: 30px;
+    margin-top: 32px;
+}
+.text-cs {
+    width: 225px;
+    font-size: 20px;
+    color: #000025;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text-cs-1 {
+    width: 225px;
+    font-size: 15px;
+    color: #000025;
+    font-weight: 300;
+    text-transform: uppercase;
+}
